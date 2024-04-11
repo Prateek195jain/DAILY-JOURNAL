@@ -1,0 +1,66 @@
+export const BlogCardData = [
+    {
+      img: "https://picsum.photos/id/201/300/200",
+      title: "10 Tips for Effective Time Management",
+      heading: "Time Management Tips",
+      createdon: "March 17, 2024",
+      description: "Learn how to manage your time efficiently and increase productivity.",
+    },
+    {
+      img: "https://picsum.photos/id/202/300/200",
+      title: "The Benefits of Regular Exercise",
+      heading: "Regular Exercise Benefits",
+      createdon: "March 18, 2024",
+      description: "Discover the numerous advantages of incorporating exercise into your daily routine.",
+    },
+    {
+      img: "https://picsum.photos/id/203/300/200",
+      title: "Exploring the Wonders of Nature",
+      heading: "Nature's Wonders",
+      createdon: "March 19, 2024",
+      description: "Embark on a journey through breathtaking landscapes and diverse ecosystems.",
+    },
+    {
+      img: "https://picsum.photos/id/204/300/200",
+      title: "Mastering the Art of Cooking",
+      heading: "Cooking Mastery",
+      createdon: "March 20, 2024",
+      description: "Unlock the secrets to preparing delicious meals with expert culinary tips and recipes.",
+    },
+    {
+      img: "https://picsum.photos/id/215/300/200",
+      title: "The Power of Positive Thinking",
+      heading: "Positive Thinking Power",
+      createdon: "March 21, 2024",
+      description: "Harness the transformative potential of positive thinking to lead a happier, more fulfilling life.",
+    },
+    {
+      img: "https://picsum.photos/id/206/300/200",
+      title: "Exploring Meditation Techniques",
+      heading: "Meditation Explorations",
+      createdon: "March 22, 2024",
+      description: "Learn various meditation practices to enhance mindfulness and inner peace.",
+    },
+    {
+      img: "https://picsum.photos/id/217/300/200",
+      title: "Tips for Effective Communication",
+      heading: "Communication Tips",
+      createdon: "March 23, 2024",
+      description: "Improve your communication skills and build stronger relationships in both personal and professional settings.",
+    },
+    {
+      img: "https://picsum.photos/id/208/300/200",
+      title: "Healthy Habits for a Balanced Lifestyle",
+      heading: "Healthy Lifestyle Habits",
+      createdon: "March 24, 2024",
+      description: "Discover simple yet effective habits to maintain a healthy balance in life.",
+    },
+    {
+      img: "https://picsum.photos/id/209/300/200",
+      title: "Exploring the World of Photography",
+      heading: "Photography Exploration",
+      createdon: "March 25, 2024",
+      description: "Capture unforgettable moments and express your creativity through photography.",
+    },
+  ];
+  
