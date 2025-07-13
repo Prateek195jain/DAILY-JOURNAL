@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from "react";
+import  { useEffect, useState } from "react";
 import BlogCard from "../components/BlogCard";
-import { BlogCardData } from "../data/BlogCardData";
+// import { BlogCardData } from "../data/BlogCardData";
 import { getBlogs } from "../api/Api";
 import { useSearchParams } from "react-router-dom";
 
@@ -23,7 +23,7 @@ export default function Home() {
 
   useEffect(() => {
     async function fetchData() {
-      let category = searchParams.get('category');
+      // let category = searchParams.get('category');
       const allBlogs = await getBlogs(searchParams.get('category'));
       console.log("API Response:", allBlogs);
       setblogs(allBlogs.data);

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import ReactQuill from "react-quill";
 import "react-quill/dist/quill.snow.css";
 import { menu } from "../data/menu";
@@ -52,8 +52,8 @@ export default function CreateBlog() {
             <option value="" default disabled>
               Select Category
             </option>
-            {menu.map((e) => {
-              return <option value={e.text}>{e.text}</option>;
+            {menu.map((e,idx) => {
+              return <option key={idx} value={e.text}>{e.text}</option>;
             })}
           </select>
           <label className="ml-1 text-gray-500">Image</label>

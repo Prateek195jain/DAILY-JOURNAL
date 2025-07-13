@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import  { useEffect, useState } from "react";
 import { getBlogById } from "../api/Api";
 import { useParams } from "react-router-dom";
 import parse from "html-react-parser";
@@ -20,7 +20,7 @@ export default function Blog() {
       }
     }
     fetchData();
-  }, [id]); // Add id as a dependency to useEffect
+  }, [id]); 
 
   return (
     <div className="flex justify-center items-center">
